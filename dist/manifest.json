@@ -11,13 +11,16 @@
     "128": "src/assets/icons/icon128.png"
   },
   "permissions": [
-    "storage", 
+    "storage",
     "tabs"
   ],
   "web_accessible_resources": [
     {
-      "resources":["src/*.json"],
-      "matches":[]
+      "matches": [],
+      "resources": [
+        "src/*.json"
+      ],
+      "use_dynamic_url": false
     }
   ]
 }
